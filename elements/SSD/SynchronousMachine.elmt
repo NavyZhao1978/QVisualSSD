@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition hotspot_x="10" height="30" orientation="dyyy" version="0.80" displayTotal="1" hotspot_y="17" link_type="master" width="20" type="element" device_type="SynchronousMachine">
+    <uuid uuid="{3e8f35ad-f032-43fd-ae84-9900299feddf}"/>
+    <names>
+    <name lang="zh-CN">电动机</name>
+        <name lang="en">SynchronousMachine</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <dynamic_text z="1" text_from="ElementInfo" text_width="-1" frame="false" x="22" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" y="-12" Halignment="AlignLeft" rotation="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="0" antialias="true" y="-3" start="180" width="8" angle="180"/>
+        <circle diameter="16" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-8" antialias="false" y="-8"/>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-8" antialias="true" y="-3" start="359" width="8" angle="180.938"/>
+        <terminal orientation="n" x="0" y="-8"/>
+    </description>
+</definition>

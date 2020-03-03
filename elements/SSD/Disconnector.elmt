@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition hotspot_y="23" version="0.80" displayTotal="1" type="element" width="20" height="50" device_type="Disconnector" hotspot_x="8" link_type="slave" orientation="dyyy">
+    <uuid uuid="{2c94d03f-91b8-4cc1-b42a-d477aba406c6}"/>
+    <names>
+        <name lang="zh-CN">隔离刀闸</name>
+        <name lang="en">Disconnector</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">simple</kindInformation>
+        <kindInformation name="state" show="1">NO</kindInformation>
+        <kindInformation name="number" show="1">1</kindInformation>
+    </kindInformations>
+    <informations>ezza</informations>
+    <description>
+        <line end1="none" y1="8" antialias="false" x1="0" length2="1.5" end2="none" y2="16" length1="1.5" x2="0" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <dynamic_text x="5" frame="false" Halignment="AlignLeft" font="Sans Serif,10,-1,5,50,0,0,0,0,0" rotation="0" text_from="ElementInfo" z="2" y="-10" uuid="{5d4d9d2c-39b6-4688-ad9b-af71e5bc05d5}" text_width="-1" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" y1="-8" antialias="false" x1="-4" length2="1.5" end2="none" y2="-8" length1="1.5" x2="4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <line end1="none" y1="8" antialias="false" x1="0" length2="1.5" end2="none" y2="-5" length1="1.5" x2="-4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <line end1="none" y1="-16" antialias="false" x1="0" length2="1.5" end2="none" y2="-8" length1="1.5" x2="0" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <terminal x="0" y="16" orientation="s"/>
+        <terminal x="0" y="-16" orientation="n"/>
+    </description>
+</definition>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition hotspot_x="23" height="40" link_type="slave" device_type="Device4" width="50" orientation="dyyy" version="0.80" hotspot_y="18" displayTotal="1" type="element">
+    <uuid uuid="{4a37f186-c072-46c8-a975-583161d9a717}"/>
+    <names>
+    <name lang="zh-CN">普通设备4</name>
+        <name lang="en">Device4</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="state" show="1">NO</kindInformation>
+        <kindInformation name="number" show="1">1</kindInformation>
+        <kindInformation name="type" show="1">simple</kindInformation>
+    </kindInformations>
+    <informations>ezza</informations>
+    <description>
+        <rect height="20" antialias="false" x="-13" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" width="26" y="-10" rx="0" ry="0"/>
+        <dynamic_text font="Sans Serif,10,-1,5,50,0,0,0,0,0" x="15" rotation="0" Halignment="AlignLeft" frame="false" y="-11" Valignment="AlignTop" uuid="{5d4d9d2c-39b6-4688-ad9b-af71e5bc05d5}" text_from="ElementInfo" z="2" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal x="0" orientation="n" y="-10"/>
+        <terminal x="-13" orientation="n" y="0"/>
+        <terminal x="0" orientation="n" y="10"/>
+        <terminal x="13" orientation="n" y="0"/>
+    </description>
+</definition>

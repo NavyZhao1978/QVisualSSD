@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition height="30" type="element" link_type="master" hotspot_x="10" displayTotal="1" device_type="Converter" width="20" version="0.80" hotspot_y="17" orientation="dyyy">
+    <uuid uuid="{486bc3de-e974-4ab0-8161-f9b84c6a8780}"/>
+    <names>
+    <name lang="zh-CN">换流器</name>
+        <name lang="en">Converter</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="type">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="0" width="8" y="-3" angle="180" antialias="true" start="180"/>
+        <dynamic_text text_width="-1" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" rotation="0" Halignment="AlignLeft" Valignment="AlignTop" x="15" y="-12" text_from="ElementInfo" z="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-8" width="8" y="-3" angle="180.938" antialias="true" start="359"/>
+        <rect height="12" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" rx="2" ry="2" x="-8" width="16" y="-6" antialias="false"/>
+        <terminal x="0" y="-6" orientation="n"/>
+    </description>
+</definition>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition device_type="Breaker" width="20" version="1.80" displayTotal="1" link_type="master" type="element" height="50" hotspot_x="10" hotspot_y="23" orientation="dyyy">
+    <uuid uuid="{691f8057-1cc2-45ad-97e6-fcc91063a25f}"/>
+    <names>
+        <name lang="zh-CN">断路器</name>
+        <name lang="en">Breaker</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="type">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <dynamic_text y="-11" font="Sans Serif,10,-1,5,50,0,0,0,0,0" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" Halignment="AlignLeft" text_from="ElementInfo" Valignment="AlignTop" z="1" frame="false" x="7" rotation="0" text_width="-1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect y="-14" rx="0" ry="0" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 255, 0, 255);brush-style:1;pen-color:rgba(0, 0, 0, 255)" width="12" antialias="false" height="28" x="-6"/>
+        <terminal y="-14" x="0" orientation="n"/>
+        <terminal y="14" x="0" orientation="s"/>
+    </description>
+</definition>

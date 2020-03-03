@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition hotspot_x="15" height="30" orientation="dyyy" version="0.80" displayTotal="1" hotspot_y="17" link_type="master" width="30" type="element" device_type="IntegratedSupervisionAndControlSystem">
+    <uuid uuid="{875aa2c8-8969-41a5-a3ae-4b8745d6b57a}"/>
+    <names>
+    <name lang="zh-CN">公用测控</name>
+        <name lang="en">CommonMeasuringAndControllingUnit</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <dynamic_text z="1" text_from="ElementInfo" text_width="-1" frame="false" x="13" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" y="-13" Halignment="AlignLeft" rotation="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect height="12" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-9" antialias="false" y="-6" rx="0" ry="0" width="18"/>
+        <rect height="5" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-6" antialias="false" y="-3" rx="0" ry="0" width="10"/>
+        <terminal orientation="n" x="0" y="-6"/>
+    </description>
+</definition>

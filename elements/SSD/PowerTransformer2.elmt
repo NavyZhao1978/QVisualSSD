@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition version="0.80" hotspot_y="33" link_type="master" displayTotal="2" type="element" hotspot_x="20" device_type="PowerTransformer2" width="40" orientation="dyyy" height="70">
+    <uuid uuid="{d42d0bd6-d3af-4254-97d3-9715d6b3cf05}"/>
+    <names>
+        <name lang="zh-CN">两卷变压器</name>
+        <name lang="en">PowerTransformer2</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <circle drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" diameter="32" antialias="true" x="-16" y="-6"/>
+        <circle drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" diameter="32" antialias="true" x="-16" y="-26"/>
+        <dynamic_text text_from="ElementInfo" z="3" font="Sans Serif,10,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" text_width="-1" Valignment="AlignTop" x="19" frame="false" rotation="0" uuid="{97cbed70-a041-427c-a7a8-0d595c2961af}" y="-13">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal orientation="s" x="0" y="-26"/>
+        <terminal orientation="s" x="0" y="26"/>
+    </description>
+</definition>

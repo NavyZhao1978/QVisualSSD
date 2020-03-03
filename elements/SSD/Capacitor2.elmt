@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition hotspot_x="10" height="40" orientation="dyyy" version="0.80" displayTotal="1" hotspot_y="19" link_type="slave" width="20" type="element" device_type="Capacitor2">
+    <uuid uuid="{8edc6c68-20b7-4b04-9170-d5c8bfc953df}"/>
+    <names>
+    <name lang="zh-CN">电容器2</name>
+        <name lang="en">Capacitor2</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <dynamic_text z="1" text_from="ElementInfo" text_width="-1" frame="false" x="0" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" y="-6" Halignment="AlignLeft" rotation="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length1="1.5" end1="none" length2="1.5" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(255, 0, 0, 255)" y2="9" x2="0" antialias="false" end2="none" x1="0" y1="2"/>
+        <line length1="1.5" end1="none" length2="1.5" drawing="pen-style:1;pen-width:3;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y2="2" x2="7" antialias="false" end2="none" x1="-7" y1="2"/>
+        <line length1="1.5" end1="none" length2="1.5" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(255, 0, 0, 255)" y2="-3" x2="0" antialias="false" end2="none" x1="0" y1="-10"/>
+        <line length1="1.5" end1="none" length2="1.5" drawing="pen-style:1;pen-width:3;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y2="-2" x2="7" antialias="false" end2="none" x1="-7" y1="-2"/>
+        <terminal orientation="n" x="0" y="9"/>
+        <terminal orientation="n" x="0" y="-10"/>
+    </description>
+</definition>

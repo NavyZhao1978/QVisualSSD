@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition height="20" type="element" link_type="master" hotspot_x="18" displayTotal="1" device_type="Converter2" width="40" version="0.80" hotspot_y="10" orientation="dyyy">
+    <uuid uuid="{18a1935d-907d-4287-a4ad-4b1f20fdb440}"/>
+    <names>
+    <name lang="zh-CN">换流器2</name>
+        <name lang="en">Converter2</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="type">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="0" width="8" y="-3" angle="180" antialias="true" start="180"/>
+        <dynamic_text text_width="-1" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" rotation="0" Halignment="AlignLeft" Valignment="AlignTop" x="16" y="-11" text_from="ElementInfo" z="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-8" width="8" y="-3" angle="180.938" antialias="true" start="359"/>
+        <rect height="12" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" rx="2" ry="2" x="-8" width="16" y="-6" antialias="false"/>
+        <line x2="-10" end2="none" length2="1.5" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y2="0" length1="1.5" end1="none" antialias="false" x1="-8" y1="0"/>
+        <line x2="10" end2="none" length2="1.5" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y2="0" length1="1.5" end1="none" antialias="false" x1="8" y1="0"/>
+        <terminal x="12" y="0" orientation="n"/>
+        <terminal x="-12" y="0" orientation="n"/>
+    </description>
+</definition>

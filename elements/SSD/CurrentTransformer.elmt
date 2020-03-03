@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition hotspot_x="20" height="50" orientation="dyyy" version="0.80" displayTotal="1" hotspot_y="23" link_type="slave" width="40" type="element" device_type="CurrentTransformer">
+    <uuid uuid="{f6ffa041-2620-4553-8776-127b873043a4}"/>
+    <names>
+    <name lang="zh-CN">电流互感器</name>
+        <name lang="en">CurrentTransformer</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="number" show="1">1</kindInformation>
+        <kindInformation name="type" show="1">simple</kindInformation>
+        <kindInformation name="state" show="1">NO</kindInformation>
+    </kindInformations>
+    <informations>ezza</informations>
+    <description>
+        <circle diameter="28" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-14" antialias="true" y="-14"/>
+        <dynamic_text z="2" text_from="ElementInfo" text_width="-1" frame="false" x="15" uuid="{e5e24ba3-7628-46c9-acd5-8269b54601fb}" y="-12" Halignment="AlignLeft" rotation="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal orientation="n" x="0" y="-14"/>
+        <terminal orientation="n" x="0" y="14"/>
+    </description>
+</definition>

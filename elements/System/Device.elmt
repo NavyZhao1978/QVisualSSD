@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition device_type="Device" orientation="dyyy" version="0.80" link_type="slave" displayTotal="1" hotspot_y="17" height="30" hotspot_x="15" width="30" type="element">
+    <uuid uuid="{3e192ca7-26e6-44a9-9196-ce8e7eb7a7e5}"/>
+    <names>
+        <name lang="zh-CN">普通设备</name>
+        <name lang="en">Device</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="state" show="1">NO</kindInformation>
+        <kindInformation name="type" show="1">simple</kindInformation>
+        <kindInformation name="number" show="1">1</kindInformation>
+    </kindInformations>
+    <informations>ezza</informations>
+    <description>
+        <dynamic_text y="-11" rotation="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" Halignment="AlignLeft" uuid="{5d4d9d2c-39b6-4688-ad9b-af71e5bc05d5}" z="2" text_width="-1" frame="false" Valignment="AlignTop" x="15" text_from="ElementInfo">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <rect y="-10" antialias="false" ry="0" height="20" rx="0" width="26" x="-13" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <terminal y="-10" orientation="n" x="0"/>
+    </description>
+</definition>

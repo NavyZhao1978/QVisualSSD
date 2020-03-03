@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition link_type="master" version="1.80" displayTotal="1" width="20" hotspot_x="10" height="40" device_type="Line" type="element" hotspot_y="24" orientation="dyyy">
+    <uuid uuid="{2d7148af-ed8f-4261-9075-5b1b747a27ab}"/>
+    <names>
+        <name lang="zh-CN">线路</name>
+        <name lang="en">Line</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="type">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <dynamic_text rotation="0" z="1" text_from="ElementInfo" text_width="-1" Valignment="AlignTop" y="-13" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" font="Sans Serif,10,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" x="13">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" end2="none" antialias="false" y2="0" x1="0" length2="1.5" drawing="pen-style:1;pen-width:3;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(255, 0, 0, 255)" x2="0" y1="-14" length1="1.5"/>
+        <polygon x3="0" antialias="false" y2="0" x1="-7" y3="10" drawing="pen-style:1;pen-width:1;brush-color:rgba(255, 0, 0, 255);brush-style:0;pen-color:rgba(255, 0, 0, 255)" x2="7" closed="1" y1="0"/>
+        <terminal y="-14" x="0" orientation="n"/>
+    </description>
+</definition>

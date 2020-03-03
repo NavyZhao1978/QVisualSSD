@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition height="50" type="element" link_type="slave" hotspot_x="15" displayTotal="1" device_type="Arrester" width="30" version="0.80" hotspot_y="24" orientation="dyyy">
+    <uuid uuid="{a12cb0e8-0b22-4e67-a9b6-a65421a9dede}"/>
+    <names>
+    <name lang="zh-CN">避雷器</name>
+        <name lang="en">Arrester</name>
+    </names>
+    <kindInformations>
+        <kindInformation show="1" name="type">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <dynamic_text text_width="-1" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" rotation="0" Halignment="AlignLeft" Valignment="AlignTop" x="10" y="-9" text_from="ElementInfo" z="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0" frame="false">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-3" width="6" y="-3" angle="180" antialias="true" start="-90"/>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-3" width="6" y="3" angle="180" antialias="true" start="-90"/>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-3" width="6" y="-9" angle="180" antialias="true" start="-90"/>
+        <line x2="0" end2="none" length2="1.5" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y2="-14" length1="1.5" end1="none" antialias="false" x1="0" y1="-9"/>
+        <line x2="0" end2="none" length2="1.5" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y2="20" length1="1.5" end1="none" antialias="false" x1="0" y1="9"/>
+        <line x2="7" end2="triangle" length2="1.5" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y2="-7" length1="1.5" end1="none" antialias="false" x1="-6" y1="6"/>
+        <polygon x2="-10" closed="false" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y2="20" x3="10" y3="20" x4="10" y4="15" antialias="false" x1="-10" y1="15"/>
+        <terminal x="0" y="-14" orientation="n"/>
+    </description>
+</definition>

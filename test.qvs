@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project folioSheetQuantity="0" areadesc="" version="1.80" areaname="" name="test" title="110kV测试站">
+    <properties>
+        <property name="savedfilepath" show="1">C:/Users/13851/Desktop/test.qet</property>
+        <property name="saveddate" show="1">2020/2/28</property>
+        <property name="savedssdtime" show="1">13:05:37</property>
+        <property name="savedfilename" show="1">test</property>
+        <property name="savedssddate" show="1">2020-02-26</property>
+        <property name="savedssdfilename" show="1">debug</property>
+        <property name="savedtime" show="1">14:40:44</property>
+        <property name="savedssdfilepath" show="1">C:/Users/13851/Desktop/debug.ssd</property>
+    </properties>
+    <newdiagrams>
+        <border rowsize="40" cols="48" colsize="40" rows="27" displayrows="true" displaycols="true"/>
+        <inset locmach="" auto_page_num="Create an auto folio numbering" date="null" author="" version="" folio="%id/%total" plant="" displayAt="bottom" indexrev="" title="" filename=""/>
+        <conductors ground="false" type="single" numsize="7" neutral="false" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" condsize="1" num="_" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="2" phase="0"/>
+        <report label="%f-%l%c"/>
+        <xrefs>
+            <xref switchprefix="" displayhas="cross" master_label="%f-%l%c" slave_label="(%f-%l%c)" powerprefix="" showpowerctc="false" xrefpos="" offset="0" delayprefix="" type="commutator" snapto="label"/>
+            <xref switchprefix="" displayhas="cross" master_label="%f-%l%c" slave_label="(%f-%l%c)" powerprefix="" showpowerctc="false" xrefpos="" offset="0" delayprefix="" type="protection" snapto="label"/>
+            <xref switchprefix="" displayhas="cross" master_label="%f-%l%c" slave_label="(%f-%l%c)" powerprefix="" showpowerctc="false" xrefpos="AlignTop" offset="40" delayprefix="" type="coil" snapto="label"/>
+        </xrefs>
+        <conductors_autonums freeze_new_conductors="false" current_autonum=""/>
+        <folio_autonums/>
+        <element_autonums freeze_new_elements="false" current_autonum=""/>
+    </newdiagrams>
+    <diagram background="rgba(255, 255, 255, 255)" displayAt="bottom" freezeNewElement="false" folio="%id/%total" freezeNewConductor="false" rowsize="40" title="" indexrev="" filename="" date="null" plant="" version="1.80" displayrows="true" displaycols="true" author="" rows="27" cols="48" height="1100" order="1" colsize="40" locmach="" auto_page_num="">
+        <defaultconductor ground="false" type="single" numsize="7" neutral="false" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" condsize="1" num="_" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0"/>
+        <elements>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="510" rotation="0" x="580" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{ddfa3d12-1361-401d-bb3e-c6b5fee09b37}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="0" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="1" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{100571c0-2892-4838-966b-b92acf665f2c}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">26011</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="0" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{363af9e5-3c7d-4bee-8fa3-0311bb72c64d}" Valignment="AlignTop">
+                        <text>26011</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="650" rotation="270" x="1050" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{882a6c97-66f1-412a-a87f-98566bfcb04d}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="2" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{c4ed2be9-d133-400f-8aed-444a7c8d536d}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7145</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-20" text_from="ElementInfo" rotation="90" x="-10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{2d06e941-41ef-4d8d-b779-f699dd2639bd}" Valignment="AlignTop">
+                        <text>7145</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="700" rotation="270" x="1050" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{31e60dc9-480d-44ba-b175-56cccc022b3c}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="3" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{c4ed2be9-d133-400f-8aed-444a7c8d536d}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7147</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-20" text_from="ElementInfo" rotation="90" x="-10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{a8bc2824-e464-4ae3-b068-f906e8b6e6a1}" Valignment="AlignTop">
+                        <text>7147</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="620" rotation="0" x="380" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{4ddae760-f7f1-4e3c-8e43-78dc4c184f06}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="4" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="5" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{e602e868-6daf-4fc1-9ecd-90fe909a62d1}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">27121</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{b9441723-5187-41fe-b8c1-e166d4681cfb}" Valignment="AlignTop">
+                        <text>27121</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="250" rotation="270" x="860" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{97f97f6b-48e6-4dda-b68d-febb1ce9dab1}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="6" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50117</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="20" text_from="ElementInfo" rotation="90" x="20" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{536a6ab4-a936-43d6-9d5f-b1cfb7c3423c}" Valignment="AlignTop">
+                        <text>50117</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="200" rotation="0" x="990" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{44b532f9-ed95-4731-bc03-175cc8a28684}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="7" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{d4222ed0-b29c-4625-a968-ec1b3688785f}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">5017</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="6" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{81606438-8759-494f-9921-fba65074c011}" Valignment="AlignTop">
+                        <text>5017</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="510" rotation="0" x="1140" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{062e4cdd-09b7-4743-bb11-86bc66d15f61}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="8" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="9" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{91b55a20-0739-422c-94d0-92e669443ac9}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7011</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="0" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{363af9e5-3c7d-4bee-8fa3-0311bb72c64d}" Valignment="AlignTop">
+                        <text>7011</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="510" rotation="0" x="620" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{855e1231-aab1-4426-b5fc-83e3cff9bd9e}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="10" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="11" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{100571c0-2892-4838-966b-b92acf665f2c}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">26012</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{363af9e5-3c7d-4bee-8fa3-0311bb72c64d}" Valignment="AlignTop">
+                        <text>26012</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="740" rotation="0" x="960" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{ba0577c3-5fd5-41c3-ae38-d803bb7e2c0c}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="12" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="13" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{c4ed2be9-d133-400f-8aed-444a7c8d536d}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7143</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="5" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{53c76651-9dba-430f-94b1-67caf09818ae}" Valignment="AlignTop">
+                        <text>7143</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="760" rotation="270" x="1050" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{e098ffd0-2d69-47c8-94ef-63c54740e702}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="14" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{c4ed2be9-d133-400f-8aed-444a7c8d536d}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7149</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-20" text_from="ElementInfo" rotation="90" x="-10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{34567c45-82f7-4eb1-aa99-34b85d6800c5}" Valignment="AlignTop">
+                        <text>7149</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="740" rotation="0" x="400" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{bbb2758a-be8a-4f0d-93dd-cd23f8890704}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="15" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="16" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{e602e868-6daf-4fc1-9ecd-90fe909a62d1}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">27123</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="5" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{53c76651-9dba-430f-94b1-67caf09818ae}" Valignment="AlignTop">
+                        <text>27123</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="190" rotation="270" x="850" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{63aecd23-23ea-4f8f-9916-ea4138664575}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="17" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50115</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="30" text_from="ElementInfo" rotation="90" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{4ea4d264-4ba9-4f41-bcc0-1d1fb8f31994}" Valignment="AlignTop">
+                        <text>50115</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="290" rotation="270" x="860" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{c91ef7ea-7924-4565-863b-8037da24716e}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="18" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50119</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="30" text_from="ElementInfo" rotation="90" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{536a6ab4-a936-43d6-9d5f-b1cfb7c3423c}" Valignment="AlignTop">
+                        <text>50119</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="620" rotation="0" x="990" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{2cb98161-8311-4aa3-8d82-9b04a4295293}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="19" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="20" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{c4ed2be9-d133-400f-8aed-444a7c8d536d}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7142</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{b7f23f8c-8c3e-4442-aeb1-f37837ed260f}" Valignment="AlignTop">
+                        <text>7142</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="270" rotation="0" x="800" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{852b7bed-968c-48b9-8e48-701630340514}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="21" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="22" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50112</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="5" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{363af9e5-3c7d-4bee-8fa3-0311bb72c64d}" Valignment="AlignTop">
+                        <text>50112</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="510" rotation="0" x="1180" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{14096f88-ac0f-418b-8590-0d82bbf5c9ca}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="23" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="24" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{91b55a20-0739-422c-94d0-92e669443ac9}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7012</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{363af9e5-3c7d-4bee-8fa3-0311bb72c64d}" Valignment="AlignTop">
+                        <text>7012</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="770" rotation="270" x="470" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{fb10fe94-35ac-4071-a7f6-73ce34472310}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="25" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{e602e868-6daf-4fc1-9ecd-90fe909a62d1}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">27129</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-20" text_from="ElementInfo" rotation="90" x="-10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{34567c45-82f7-4eb1-aa99-34b85d6800c5}" Valignment="AlignTop">
+                        <text>27129</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="410" rotation="0" x="1160" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{e079cec3-6615-4159-a6e9-0d91c74f7fdc}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="26" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="27" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{91b55a20-0739-422c-94d0-92e669443ac9}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7013</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="5" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{8d47dc50-5efc-4389-ab95-4d159ff8cbb8}" Valignment="AlignTop">
+                        <text>7013</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="160" rotation="0" x="800" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{70b02f09-97a8-4c26-97df-ee5b7fa05fe6}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="28" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="29" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50111</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{8d47dc50-5efc-4389-ab95-4d159ff8cbb8}" Valignment="AlignTop">
+                        <text>50111</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="700" rotation="270" x="470" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{9efa4a56-7331-4724-8c70-0a477946e4bf}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="30" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{e602e868-6daf-4fc1-9ecd-90fe909a62d1}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">27127</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-20" text_from="ElementInfo" rotation="90" x="-10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{a8bc2824-e464-4ae3-b068-f906e8b6e6a1}" Valignment="AlignTop">
+                        <text>27127</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="620" rotation="0" x="940" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{bea0955a-ceeb-43aa-bb0c-1673ffd091ab}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="31" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="32" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{c4ed2be9-d133-400f-8aed-444a7c8d536d}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7141</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{b9441723-5187-41fe-b8c1-e166d4681cfb}" Valignment="AlignTop">
+                        <text>7141</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="490" rotation="270" x="1240" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{30ed65cb-5883-46ef-8f2d-b27d6dc39d3f}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="33" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{91b55a20-0739-422c-94d0-92e669443ac9}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7015</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="20" text_from="ElementInfo" rotation="90" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{4ea4d264-4ba9-4f41-bcc0-1d1fb8f31994}" Valignment="AlignTop">
+                        <text>7015</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="440" rotation="270" x="1240" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{38a0e1e6-2d42-4f58-bc47-35b640e636ee}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="34" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{91b55a20-0739-422c-94d0-92e669443ac9}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7017</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="20" text_from="ElementInfo" rotation="90" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{4ea4d264-4ba9-4f41-bcc0-1d1fb8f31994}" Valignment="AlignTop">
+                        <text>7017</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="490" rotation="270" x="670" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{706ae2c6-a275-44a8-899a-4e42fbded2e1}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="35" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{100571c0-2892-4838-966b-b92acf665f2c}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">26015</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="30" text_from="ElementInfo" rotation="90" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{4ea4d264-4ba9-4f41-bcc0-1d1fb8f31994}" Valignment="AlignTop">
+                        <text>26015</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="410" rotation="0" x="600" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{5185c9e6-dc9a-404a-a628-3e94d48302ca}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="36" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="37" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{100571c0-2892-4838-966b-b92acf665f2c}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">26013</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="5" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{8d47dc50-5efc-4389-ab95-4d159ff8cbb8}" Valignment="AlignTop">
+                        <text>26013</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="390" rotation="270" x="1240" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{f7f3230e-443e-4d81-9e04-8e138db3152f}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="38" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{91b55a20-0739-422c-94d0-92e669443ac9}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110</elementInformation>
+                    <elementInformation name="label" show="1">7019</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="20" text_from="ElementInfo" rotation="90" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{4ea4d264-4ba9-4f41-bcc0-1d1fb8f31994}" Valignment="AlignTop">
+                        <text>7019</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="370" rotation="270" x="670" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{68d0061e-31cc-4901-9657-1a0f2e9d8bf2}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="39" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{100571c0-2892-4838-966b-b92acf665f2c}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">26019</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="30" text_from="ElementInfo" rotation="90" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{4ea4d264-4ba9-4f41-bcc0-1d1fb8f31994}" Valignment="AlignTop">
+                        <text>26019</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="650" rotation="270" x="480" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{a313b04a-a3e3-41ab-b763-3091cf1fd048}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="40" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{e602e868-6daf-4fc1-9ecd-90fe909a62d1}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">27125</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-20" text_from="ElementInfo" rotation="90" x="-10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{2d06e941-41ef-4d8d-b779-f699dd2639bd}" Valignment="AlignTop">
+                        <text>27125</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="760" freezeLabel="false" x1="300" y="70" rotation="0" x="600" y1="500" z="0" orientation="0" scale="1" type="embed://bus.elmt" uuid="{0cfd53d0-bd06-4cb9-bcca-66a5742513e2}" y2="500">
+                <terminals>
+                    <terminal y="500" number="_" id="41" x="304.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="42" x="309.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="43" x="313.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="44" x="318.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="45" x="323" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="46" x="327.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="47" x="332.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="48" x="336.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="49" x="341.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="50" x="346" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="51" x="350.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="52" x="355.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="53" x="359.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="54" x="364.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="55" x="369" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="56" x="373.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="57" x="378.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="58" x="382.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="59" x="387.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="60" x="392" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="61" x="396.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="62" x="401.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="63" x="405.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="64" x="410.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="65" x="415" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="66" x="419.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="67" x="424.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="68" x="428.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="69" x="433.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="70" x="438" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="71" x="442.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="72" x="447.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="73" x="451.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="74" x="456.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="75" x="461" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="76" x="465.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="77" x="470.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="78" x="474.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="79" x="479.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="80" x="484" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="81" x="488.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="82" x="493.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="83" x="497.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="84" x="502.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="85" x="507" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="86" x="511.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="87" x="516.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="88" x="520.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="89" x="525.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="90" x="530" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="91" x="534.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="92" x="539.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="93" x="543.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="94" x="548.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="95" x="553" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="96" x="557.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="97" x="562.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="98" x="566.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="99" x="571.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="100" x="576" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="101" x="580.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="102" x="585.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="103" x="589.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="104" x="594.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="105" x="599" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="106" x="603.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="107" x="608.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="108" x="612.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="109" x="617.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="110" x="622" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="111" x="626.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="112" x="631.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="113" x="635.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="114" x="640.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="115" x="645" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="116" x="649.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="117" x="654.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="118" x="658.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="119" x="663.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="120" x="668" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="121" x="672.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="122" x="677.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="123" x="681.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="124" x="686.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="125" x="691" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="126" x="695.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="127" x="700.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="128" x="704.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="129" x="709.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="130" x="714" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="131" x="718.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="132" x="723.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="133" x="727.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="134" x="732.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="135" x="737" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="136" x="741.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="137" x="746.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="138" x="750.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="139" x="755.4" nameHidden="0" name="_" orientation="1"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110kV</elementInformation>
+                    <elementInformation name="label" show="1">110kV二段</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" y="500" text_from="ElementInfo" rotation="0" x="760" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{229e2791-8db4-481f-91d8-477054c2a068}" Valignment="AlignTop">
+                        <text>110kV二段</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="620" rotation="0" x="430" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Disconnector.elmt" uuid="{3a448283-2fc7-4a08-8a93-01ee367c8fcc}" y2="0">
+                <terminals>
+                    <terminal y="-16" number="_" id="140" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="16" number="_" id="141" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{e602e868-6daf-4fc1-9ecd-90fe909a62d1}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">27122</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-10" text_from="ElementInfo" rotation="0" x="10" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{b7f23f8c-8c3e-4442-aeb1-f37837ed260f}" Valignment="AlignTop">
+                        <text>27122</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="440" rotation="270" x="680" y1="0" z="10" orientation="3" scale="1" type="embed://import/SSD/GroundDisconnector.elmt" uuid="{9baabf3b-e39c-4270-83cf-63f4cbc35929}" y2="0">
+                <terminals>
+                    <terminal y="-17" number="_" id="142" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{100571c0-2892-4838-966b-b92acf665f2c}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220</elementInformation>
+                    <elementInformation name="label" show="1">26017</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="0" text_from="ElementInfo" rotation="90" x="0" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{4ea4d264-4ba9-4f41-bcc0-1d1fb8f31994}" Valignment="AlignTop">
+                        <text>26017</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="340" rotation="0" x="810" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/PowerTransformer3.elmt" uuid="{3a385c67-b154-4535-ae08-317fb8687150}" y2="0">
+                <lnodes1>
+                    <lnode prefix="DOST" desc="开出SOE" iedName="D101" phase="TapChanger" lnInst="1" ldInst="CTRL" lnType="SF/CSI200E/CTRL_GGIO_DOST" lnClass="GGIO"/>
+                </lnodes1>
+                <lnodes2>
+                    <lnode prefix="DOST" desc="开出SOE" iedName="D101" phase="TapChanger" lnInst="1" ldInst="CTRL" lnType="SF/CSI200E/CTRL_GGIO_DOST" lnClass="GGIO"/>
+                </lnodes2>
+                <lnodes3>
+                    <lnode prefix="ctl" desc="RC 31" iedName="D101" phase="TapChanger" lnInst="1" ldInst="CTRL" lnType="SF/CSI200E/CTRL_GGIO_1DO" lnClass="GGIO"/>
+                </lnodes3>
+                <terminals>
+                    <terminal y="-26" number="_" id="143" x="-10" nameHidden="0" name="_" orientation="2"/>
+                    <terminal displayIndex="2" y="0" number="_" id="144" x="26" nameHidden="0" name="_" orientation="0"/>
+                    <terminal displayIndex="1" y="26" number="_" id="145" x="-10" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="voltage3" show="1">110kV</elementInformation>
+                    <elementInformation name="voltage2" show="1">220kV</elementInformation>
+                    <elementInformation name="voltage" show="1">500kV</elementInformation>
+                    <elementInformation name="label" show="1">TP1</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-30" text_from="ElementInfo" rotation="0" x="40" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{f37afeaa-0277-4f71-ba62-9f6733069fe3}" Valignment="AlignTop">
+                        <text>TP1</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="850" rotation="0" x="960" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Line.elmt" uuid="{6df0e117-d7b5-4f45-a47e-daf066ef0840}" y2="0">
+                <terminals>
+                    <terminal y="-14" number="_" id="146" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110kV</elementInformation>
+                    <elementInformation name="label" show="1">线路2</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-13" text_from="ElementInfo" rotation="0" x="13" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{7e92cec2-94bd-4793-a8f4-52d9e4ac09c7}" Valignment="AlignTop">
+                        <text>线路2</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="680" rotation="0" x="960" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Breaker.elmt" uuid="{c4ed2be9-d133-400f-8aed-444a7c8d536d}" y2="0">
+                <terminals>
+                    <terminal y="-14" number="_" id="147" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="14" number="_" id="148" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{882a6c97-66f1-412a-a87f-98566bfcb04d}"/>
+                    <link_uuid uuid="{31e60dc9-480d-44ba-b175-56cccc022b3c}"/>
+                    <link_uuid uuid="{ba0577c3-5fd5-41c3-ae38-d803bb7e2c0c}"/>
+                    <link_uuid uuid="{e098ffd0-2d69-47c8-94ef-63c54740e702}"/>
+                    <link_uuid uuid="{2cb98161-8311-4aa3-8d82-9b04a4295293}"/>
+                    <link_uuid uuid="{bea0955a-ceeb-43aa-bb0c-1673ffd091ab}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110kV</elementInformation>
+                    <elementInformation name="label" show="1">714</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-20" text_from="ElementInfo" rotation="0" x="-50" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{762dde63-f451-4410-8fd7-da271fe673c4}" Valignment="AlignTop">
+                        <text>714</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="850" rotation="0" x="400" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Line.elmt" uuid="{8647138d-014d-4e83-b158-9b38402e5b07}" y2="0">
+                <terminals>
+                    <terminal y="-14" number="_" id="149" x="0" nameHidden="0" name="_" orientation="0"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220kV</elementInformation>
+                    <elementInformation name="label" show="1">线路1</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-13" text_from="ElementInfo" rotation="0" x="13" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{4c5f12d0-41a6-41ca-8682-65b1e3be7650}" Valignment="AlignTop">
+                        <text>线路1</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="220" rotation="0" x="800" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Breaker.elmt" uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}" y2="0">
+                <terminals>
+                    <terminal y="-14" number="_" id="150" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="14" number="_" id="151" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{97f97f6b-48e6-4dda-b68d-febb1ce9dab1}"/>
+                    <link_uuid uuid="{63aecd23-23ea-4f8f-9916-ea4138664575}"/>
+                    <link_uuid uuid="{c91ef7ea-7924-4565-863b-8037da24716e}"/>
+                    <link_uuid uuid="{852b7bed-968c-48b9-8e48-701630340514}"/>
+                    <link_uuid uuid="{70b02f09-97a8-4c26-97df-ee5b7fa05fe6}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500kV</elementInformation>
+                    <elementInformation name="label" show="1">5011</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-20" text_from="ElementInfo" rotation="0" x="-60" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{fca456f3-b3b8-4ab2-a145-a4a6f0065ad4}" Valignment="AlignTop">
+                        <text>5011</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="460" rotation="0" x="600" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Breaker.elmt" uuid="{100571c0-2892-4838-966b-b92acf665f2c}" y2="0">
+                <lnodes>
+                    <lnode prefix="MidRel" desc="中间继电器" iedName="D101" lnInst="1" ldInst="CTRL" lnType="SF/CSI200E/CTRL_GGIO_1MidRel" lnClass="GGIO"/>
+                    <lnode prefix="DOST" desc="开出SOE" iedName="D101" lnInst="1" ldInst="CTRL" lnType="SF/CSI200E/CTRL_GGIO_DOST" lnClass="GGIO"/>
+                    <lnode desc="检同期" iedName="D101" lnInst="2" ldInst="CTRL" lnType="SF/CSI200E/CTRL_RSYN_2" lnClass="RSYN"/>
+                    <lnode prefix="ctl" desc="RC 33" iedName="D101" lnInst="3" ldInst="CTRL" lnType="SF/CSI200E/CTRL_GGIO_1DO" lnClass="GGIO"/>
+                </lnodes>
+                <lnodes2>
+                    <lnode desc="检无压" iedName="D101" phase="A" lnInst="3" ldInst="CTRL" lnType="SF/CSI200E/CTRL_RSYN_3" lnClass="RSYN"/>
+                    <lnode desc="检同期" iedName="D101" phase="B" lnInst="2" ldInst="CTRL" lnType="SF/CSI200E/CTRL_RSYN_2" lnClass="RSYN"/>
+                    <lnode desc="捕捉同期" iedName="D101" phase="C" lnInst="1" ldInst="CTRL" lnType="SF/CSI200E/CTRL_RSYN_1" lnClass="RSYN"/>
+                    <lnode prefix="ctl" desc="RC 34" iedName="D101" phase="N" lnInst="4" ldInst="CTRL" lnType="SF/CSI200E/CTRL_GGIO_1DO" lnClass="GGIO"/>
+                </lnodes2>
+                <terminals>
+                    <terminal y="-14" number="_" id="152" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="14" number="_" id="153" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{ddfa3d12-1361-401d-bb3e-c6b5fee09b37}"/>
+                    <link_uuid uuid="{855e1231-aab1-4426-b5fc-83e3cff9bd9e}"/>
+                    <link_uuid uuid="{706ae2c6-a275-44a8-899a-4e42fbded2e1}"/>
+                    <link_uuid uuid="{5185c9e6-dc9a-404a-a628-3e94d48302ca}"/>
+                    <link_uuid uuid="{68d0061e-31cc-4901-9657-1a0f2e9d8bf2}"/>
+                    <link_uuid uuid="{9baabf3b-e39c-4270-83cf-63f4cbc35929}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220kV</elementInformation>
+                    <elementInformation name="label" show="1">2601</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-40" text_from="ElementInfo" rotation="0" x="-60" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{fca456f3-b3b8-4ab2-a145-a4a6f0065ad4}" Valignment="AlignTop">
+                        <text>2601</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="460" rotation="0" x="1160" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Breaker.elmt" uuid="{91b55a20-0739-422c-94d0-92e669443ac9}" y2="0">
+                <terminals>
+                    <terminal y="-14" number="_" id="154" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="14" number="_" id="155" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{062e4cdd-09b7-4743-bb11-86bc66d15f61}"/>
+                    <link_uuid uuid="{14096f88-ac0f-418b-8590-0d82bbf5c9ca}"/>
+                    <link_uuid uuid="{e079cec3-6615-4159-a6e9-0d91c74f7fdc}"/>
+                    <link_uuid uuid="{30ed65cb-5883-46ef-8f2d-b27d6dc39d3f}"/>
+                    <link_uuid uuid="{38a0e1e6-2d42-4f58-bc47-35b640e636ee}"/>
+                    <link_uuid uuid="{f7f3230e-443e-4d81-9e04-8e138db3152f}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110kV</elementInformation>
+                    <elementInformation name="label" show="1">701</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-40" text_from="ElementInfo" rotation="0" x="-50" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{fca456f3-b3b8-4ab2-a145-a4a6f0065ad4}" Valignment="AlignTop">
+                        <text>701</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="0" freezeLabel="false" x1="0" y="680" rotation="0" x="400" y1="0" z="10" orientation="0" scale="1" type="embed://import/SSD/Breaker.elmt" uuid="{e602e868-6daf-4fc1-9ecd-90fe909a62d1}" y2="0">
+                <terminals>
+                    <terminal y="-14" number="_" id="156" x="0" nameHidden="0" name="_" orientation="0"/>
+                    <terminal y="14" number="_" id="157" x="0" nameHidden="0" name="_" orientation="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{4ddae760-f7f1-4e3c-8e43-78dc4c184f06}"/>
+                    <link_uuid uuid="{bbb2758a-be8a-4f0d-93dd-cd23f8890704}"/>
+                    <link_uuid uuid="{fb10fe94-35ac-4071-a7f6-73ce34472310}"/>
+                    <link_uuid uuid="{9efa4a56-7331-4724-8c70-0a477946e4bf}"/>
+                    <link_uuid uuid="{a313b04a-a3e3-41ab-b763-3091cf1fd048}"/>
+                    <link_uuid uuid="{3a448283-2fc7-4a08-8a93-01ee367c8fcc}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220kV</elementInformation>
+                    <elementInformation name="label" show="1">2712</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" y="-30" text_from="ElementInfo" rotation="0" x="-60" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{762dde63-f451-4410-8fd7-da271fe673c4}" Valignment="AlignTop">
+                        <text>2712</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="760" freezeLabel="false" x1="300" y="70" rotation="0" x="40" y1="500" z="0" orientation="0" scale="1" type="embed://bus.elmt" uuid="{960bfb9a-59f8-4e39-a940-7f36d10fd423}" y2="500">
+                <terminals>
+                    <terminal y="500" number="_" id="158" x="304.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="159" x="309.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="160" x="313.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="161" x="318.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="162" x="323" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="163" x="327.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="164" x="332.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="165" x="336.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="166" x="341.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="167" x="346" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="168" x="350.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="169" x="355.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="170" x="359.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="171" x="364.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="172" x="369" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="173" x="373.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="174" x="378.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="175" x="382.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="176" x="387.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="177" x="392" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="178" x="396.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="179" x="401.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="180" x="405.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="181" x="410.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="182" x="415" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="183" x="419.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="184" x="424.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="185" x="428.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="186" x="433.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="187" x="438" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="188" x="442.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="189" x="447.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="190" x="451.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="191" x="456.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="192" x="461" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="193" x="465.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="194" x="470.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="195" x="474.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="196" x="479.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="197" x="484" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="198" x="488.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="199" x="493.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="200" x="497.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="201" x="502.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="202" x="507" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="203" x="511.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="204" x="516.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="205" x="520.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="206" x="525.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="207" x="530" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="208" x="534.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="209" x="539.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="210" x="543.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="211" x="548.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="212" x="553" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="213" x="557.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="214" x="562.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="215" x="566.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="216" x="571.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="217" x="576" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="218" x="580.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="219" x="585.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="220" x="589.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="221" x="594.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="222" x="599" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="223" x="603.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="224" x="608.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="225" x="612.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="226" x="617.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="227" x="622" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="228" x="626.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="229" x="631.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="230" x="635.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="231" x="640.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="232" x="645" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="233" x="649.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="234" x="654.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="235" x="658.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="236" x="663.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="237" x="668" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="238" x="672.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="239" x="677.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="240" x="681.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="241" x="686.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="242" x="691" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="243" x="695.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="244" x="700.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="245" x="704.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="246" x="709.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="247" x="714" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="248" x="718.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="249" x="723.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="250" x="727.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="251" x="732.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="252" x="737" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="253" x="741.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="254" x="746.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="255" x="750.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="500" number="_" id="256" x="755.4" nameHidden="0" name="_" orientation="1"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220kV</elementInformation>
+                    <elementInformation name="label" show="1">220kV二段</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" y="500" text_from="ElementInfo" rotation="0" x="760" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{229e2791-8db4-481f-91d8-477054c2a068}" Valignment="AlignTop">
+                        <text>220kV二段</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="980" freezeLabel="false" x1="480" y="-10" rotation="0" x="40" y1="130" z="0" orientation="0" scale="1" type="embed://bus.elmt" uuid="{d4222ed0-b29c-4625-a968-ec1b3688785f}" y2="130">
+                <terminals>
+                    <terminal y="130" number="_" id="257" x="485" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="258" x="490" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="259" x="495" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="260" x="500" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="261" x="505" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="262" x="510" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="263" x="515" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="264" x="520" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="265" x="525" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="266" x="530" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="267" x="535" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="268" x="540" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="269" x="545" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="270" x="550" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="271" x="555" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="272" x="560" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="273" x="565" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="274" x="570" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="275" x="575" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="276" x="580" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="277" x="585" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="278" x="590" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="279" x="595" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="280" x="600" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="281" x="605" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="282" x="610" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="283" x="615" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="284" x="620" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="285" x="625" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="286" x="630" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="287" x="635" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="288" x="640" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="289" x="645" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="290" x="650" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="291" x="655" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="292" x="660" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="293" x="665" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="294" x="670" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="295" x="675" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="296" x="680" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="297" x="685" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="298" x="690" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="299" x="695" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="300" x="700" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="301" x="705" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="302" x="710" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="303" x="715" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="304" x="720" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="305" x="725" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="306" x="730" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="307" x="735" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="308" x="740" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="309" x="745" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="310" x="750" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="311" x="755" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="312" x="760" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="313" x="765" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="314" x="770" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="315" x="775" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="316" x="780" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="317" x="785" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="318" x="790" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="319" x="795" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="320" x="800" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="321" x="805" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="322" x="810" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="323" x="815" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="324" x="820" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="325" x="825" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="326" x="830" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="327" x="835" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="328" x="840" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="329" x="845" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="330" x="850" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="331" x="855" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="332" x="860" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="333" x="865" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="334" x="870" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="335" x="875" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="336" x="880" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="337" x="885" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="338" x="890" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="339" x="895" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="340" x="900" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="341" x="905" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="342" x="910" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="343" x="915" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="344" x="920" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="345" x="925" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="346" x="930" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="347" x="935" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="348" x="940" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="349" x="945" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="350" x="950" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="351" x="955" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="352" x="960" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="353" x="965" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="354" x="970" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="130" number="_" id="355" x="975" nameHidden="0" name="_" orientation="1"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{44b532f9-ed95-4731-bc03-175cc8a28684}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500kV</elementInformation>
+                    <elementInformation name="label" show="1">500kV</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" y="110" text_from="ElementInfo" rotation="0" x="990" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{0963c420-93ec-4875-b658-520e2868ef6e}" Valignment="AlignTop">
+                        <text>500kV</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="760" freezeLabel="false" x1="300" y="20" rotation="0" x="40" y1="530" z="0" orientation="0" scale="1" type="embed://bus.elmt" uuid="{5b563f92-f1bf-4bf1-a899-eedda1915fd4}" y2="530">
+                <terminals>
+                    <terminal y="530" number="_" id="356" x="304.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="357" x="309.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="358" x="313.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="359" x="318.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="360" x="323" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="361" x="327.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="362" x="332.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="363" x="336.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="364" x="341.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="365" x="346" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="366" x="350.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="367" x="355.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="368" x="359.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="369" x="364.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="370" x="369" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="371" x="373.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="372" x="378.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="373" x="382.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="374" x="387.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="375" x="392" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="376" x="396.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="377" x="401.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="378" x="405.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="379" x="410.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="380" x="415" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="381" x="419.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="382" x="424.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="383" x="428.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="384" x="433.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="385" x="438" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="386" x="442.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="387" x="447.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="388" x="451.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="389" x="456.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="390" x="461" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="391" x="465.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="392" x="470.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="393" x="474.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="394" x="479.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="395" x="484" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="396" x="488.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="397" x="493.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="398" x="497.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="399" x="502.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="400" x="507" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="401" x="511.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="402" x="516.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="403" x="520.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="404" x="525.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="405" x="530" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="406" x="534.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="407" x="539.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="408" x="543.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="409" x="548.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="410" x="553" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="411" x="557.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="412" x="562.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="413" x="566.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="414" x="571.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="415" x="576" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="416" x="580.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="417" x="585.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="418" x="589.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="419" x="594.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="420" x="599" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="421" x="603.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="422" x="608.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="423" x="612.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="424" x="617.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="425" x="622" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="426" x="626.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="427" x="631.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="428" x="635.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="429" x="640.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="430" x="645" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="431" x="649.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="432" x="654.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="433" x="658.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="434" x="663.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="435" x="668" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="436" x="672.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="437" x="677.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="438" x="681.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="439" x="686.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="440" x="691" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="441" x="695.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="442" x="700.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="443" x="704.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="444" x="709.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="445" x="714" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="446" x="718.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="447" x="723.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="448" x="727.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="449" x="732.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="450" x="737" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="451" x="741.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="452" x="746.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="453" x="750.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="454" x="755.4" nameHidden="0" name="_" orientation="1"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">220kV</elementInformation>
+                    <elementInformation name="label" show="1">220kV一段</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" y="510" text_from="ElementInfo" rotation="0" x="760" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{b7a24433-48b6-4efe-8462-64ce270aa986}" Valignment="AlignTop">
+                        <text>220kV一段</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element prefix="" x2="760" freezeLabel="false" x1="300" y="20" rotation="0" x="600" y1="530" z="0" orientation="0" scale="1" type="embed://bus.elmt" uuid="{2c070d77-f0f6-43f5-ad85-2aff34782922}" y2="530">
+                <terminals>
+                    <terminal y="530" number="_" id="455" x="304.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="456" x="309.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="457" x="313.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="458" x="318.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="459" x="323" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="460" x="327.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="461" x="332.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="462" x="336.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="463" x="341.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="464" x="346" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="465" x="350.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="466" x="355.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="467" x="359.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="468" x="364.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="469" x="369" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="470" x="373.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="471" x="378.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="472" x="382.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="473" x="387.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="474" x="392" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="475" x="396.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="476" x="401.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="477" x="405.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="478" x="410.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="479" x="415" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="480" x="419.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="481" x="424.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="482" x="428.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="483" x="433.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="484" x="438" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="485" x="442.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="486" x="447.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="487" x="451.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="488" x="456.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="489" x="461" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="490" x="465.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="491" x="470.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="492" x="474.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="493" x="479.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="494" x="484" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="495" x="488.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="496" x="493.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="497" x="497.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="498" x="502.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="499" x="507" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="500" x="511.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="501" x="516.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="502" x="520.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="503" x="525.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="504" x="530" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="505" x="534.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="506" x="539.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="507" x="543.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="508" x="548.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="509" x="553" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="510" x="557.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="511" x="562.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="512" x="566.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="513" x="571.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="514" x="576" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="515" x="580.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="516" x="585.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="517" x="589.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="518" x="594.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="519" x="599" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="520" x="603.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="521" x="608.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="522" x="612.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="523" x="617.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="524" x="622" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="525" x="626.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="526" x="631.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="527" x="635.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="528" x="640.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="529" x="645" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="530" x="649.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="531" x="654.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="532" x="658.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="533" x="663.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="534" x="668" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="535" x="672.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="536" x="677.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="537" x="681.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="538" x="686.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="539" x="691" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="540" x="695.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="541" x="700.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="542" x="704.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="543" x="709.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="544" x="714" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="545" x="718.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="546" x="723.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="547" x="727.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="548" x="732.4" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="549" x="737" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="550" x="741.6" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="551" x="746.2" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="552" x="750.8" nameHidden="0" name="_" orientation="1"/>
+                    <terminal y="530" number="_" id="553" x="755.4" nameHidden="0" name="_" orientation="1"/>
+                </terminals>
+                <inputs/>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">110kV</elementInformation>
+                    <elementInformation name="label" show="1">110kV一段</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text frame="false" font="Sans Serif,9,-1,5,0,0,0,0,0,0,normal" y="510" text_from="ElementInfo" rotation="0" x="760" text_width="-1" Halignment="AlignLeft" scale="1" uuid="{b7a24433-48b6-4efe-8462-64ce270aa986}" Valignment="AlignTop">
+                        <text>110kV一段</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+        </elements>
+        <conductors>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="407" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="1" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="26" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="144" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="26" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="38" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="155" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="8" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <segment length="0" orientation="horizontal"/>
+                <segment length="-9" orientation="vertical"/>
+                <segment length="20" orientation="horizontal"/>
+                <segment length="-11" orientation="vertical"/>
+                <segment length="0" orientation="horizontal"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#ff0000" neutral="false" terminal2="312" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="28" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#ff0000" neutral="false" terminal2="349" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="7" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="12" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="148" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="364" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="4" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#ff0000" neutral="false" terminal2="22" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="143" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="37" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="152" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="101" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="24" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="218" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="11" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="141" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="40" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="155" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="23" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <segment length="0" orientation="horizontal"/>
+                <segment length="-9" orientation="vertical"/>
+                <segment length="-20" orientation="horizontal"/>
+                <segment length="-11" orientation="vertical"/>
+                <segment length="0" orientation="horizontal"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="147" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="20" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="463" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="31" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#ff0000" neutral="false" terminal2="22" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="18" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="176" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="140" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#ff0000" neutral="false" terminal2="29" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="17" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#ff0000" neutral="false" terminal2="151" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="21" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="153" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="0" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <segment length="0" orientation="horizontal"/>
+                <segment length="-9" orientation="vertical"/>
+                <segment length="20" orientation="horizontal"/>
+                <segment length="-11" orientation="vertical"/>
+                <segment length="0" orientation="horizontal"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="36" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="145" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#ff0000" neutral="false" terminal2="21" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="6" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="27" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="154" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="506" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="9" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="147" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="32" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="59" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="19" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="37" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="142" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="156" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="5" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="27" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="34" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#ff0000" neutral="false" terminal2="29" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="150" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="16" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="25" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="23" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="33" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="16" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="149" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="15" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="30" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="15" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="157" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="12" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="3" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="13" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="14" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="13" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="146" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="10" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="35" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="153" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="10" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <segment length="0" orientation="horizontal"/>
+                <segment length="-9" orientation="vertical"/>
+                <segment length="-20" orientation="horizontal"/>
+                <segment length="-11" orientation="vertical"/>
+                <segment length="0" orientation="horizontal"/>
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="156" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="141" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#f04155" neutral="false" terminal2="20" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="2" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor ground="false" type="single" numsize="7" color="#800080" neutral="false" terminal2="36" style="pen-style:1;" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" y="0" function="" tension-protocol="" vertirotatetext="270" formula="" displaytext="1" color2="#000000" freezeLabel="false" condsize="1" x="0" num="_" terminal1="39" onetextperfolio="0" bicolor="false" horizrotatetext="0" dash-size="1" phase="0">
+                <sequentialNumbers/>
+            </conductor>
+        </conductors>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="de">Importierte elemente</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="sl">Uvoženi elementi</name>
+                <name lang="en">Imported elements</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="tr">İthal öğeler</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="da">Importerede elementer</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="fr">Éléments importés</name>
+                <name lang="pl">Elementy importowane</name>
+            </names>
+            <category name="SSD">
+                <names>
+                    <name lang="en">SSD</name>
+                    <name lang="ch">变电站</name>
+                </names>
+                <element name="Breaker.elmt">
+                    <definition width="20" display_total="4" version="0.80" device_type="Breaker" link_type="master" hotspot_y="23" height="50" orientation="dyyy" hotspot_x="10" type="element">
+                        <uuid uuid="{2f23e24d-d51c-4880-b18e-a23c312fa223}"/>
+                        <names>
+                            <name lang="ch">断路器</name>
+                            <name lang="en">Breaker</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="type" show="1">coil</kindInformation>
+                        </kindInformations>
+                        <elementInformations/>
+                        <informations>ezza</informations>
+                        <description>
+                            <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="-11" rotation="0" text_width="-1" x="7" Halignment="AlignLeft" z="1" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" Valignment="AlignTop">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <rect drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 255, 0, 255);brush-style:1;pen-color:rgba(0, 0, 0, 255)" width="12" ry="0" antialias="false" y="-14" x="-6" display-index="0" rx="0" height="28"/>
+                            <terminal y="-14" x="0" display-index="0" orientation="n"/>
+                            <terminal y="14" x="0" display-index="0" orientation="s"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="Disconnector.elmt">
+                    <definition width="20" display_total="4" version="0.80" device_type="Disconnector" link_type="slave" hotspot_y="23" height="50" orientation="dyyy" hotspot_x="8" type="element">
+                        <uuid uuid="{e1c1a3ab-d466-457b-8358-881cc9402d66}"/>
+                        <names>
+                            <name lang="ch">隔离刀闸</name>
+                            <name lang="en">Disconnector</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="state" show="1">NO</kindInformation>
+                            <kindInformation name="type" show="1">simple</kindInformation>
+                            <kindInformation name="number" show="1">1</kindInformation>
+                        </kindInformations>
+                        <informations>ezza</informations>
+                        <description>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="0" antialias="false" x1="0" length1="1.5" length2="1.5" end1="none" y1="8" display-index="0" end2="none" y2="16"/>
+                            <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="-10" rotation="0" text_width="-1" x="5" Halignment="AlignLeft" z="2" uuid="{5d4d9d2c-39b6-4688-ad9b-af71e5bc05d5}" Valignment="AlignTop">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="4" antialias="false" x1="-4" length1="1.5" length2="1.5" end1="none" y1="-8" display-index="0" end2="none" y2="-8"/>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="-4" antialias="false" x1="0" length1="1.5" length2="1.5" end1="none" y1="8" display-index="0" end2="none" y2="-5"/>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="0" antialias="false" x1="0" length1="1.5" length2="1.5" end1="none" y1="-16" display-index="0" end2="none" y2="-8"/>
+                            <terminal y="16" x="0" display-index="0" orientation="s"/>
+                            <terminal y="-16" x="0" display-index="0" orientation="n"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="GroundDisconnector.elmt">
+                    <definition width="20" display_total="4" version="0.80" device_type="GroundDisconnector" link_type="slave" hotspot_y="26" height="50" orientation="dyyy" hotspot_x="8" type="element">
+                        <uuid uuid="{c343b2ca-5eef-42be-af25-b34b1f7f8224}"/>
+                        <names>
+                            <name lang="ch">接地刀闸</name>
+                            <name lang="en">GroundDisconnector</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="state" show="1">NO</kindInformation>
+                            <kindInformation name="type" show="1">simple</kindInformation>
+                            <kindInformation name="number" show="1">1</kindInformation>
+                        </kindInformations>
+                        <informations>ezza</informations>
+                        <description>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="3" antialias="false" x1="-3" length1="1.5" length2="1.5" end1="none" y1="17" display-index="0" end2="none" y2="17"/>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="0" antialias="false" x1="0" length1="1.5" length2="1.5" end1="none" y1="7" display-index="0" end2="none" y2="15"/>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="2" antialias="false" x1="-2" length1="1.5" length2="1.5" end1="none" y1="19" display-index="0" end2="none" y2="19"/>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="4" antialias="false" x1="-4" length1="1.5" length2="1.5" end1="none" y1="15" display-index="0" end2="none" y2="15"/>
+                            <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="-10" rotation="0" text_width="-1" x="6" Halignment="AlignLeft" z="5" uuid="{7f959411-ccf6-4eb3-b49e-350cc7a9c45b}" Valignment="AlignTop">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="4" antialias="false" x1="-4" length1="1.5" length2="1.5" end1="none" y1="-9" display-index="0" end2="none" y2="-9"/>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="-4" antialias="false" x1="0" length1="1.5" length2="1.5" end1="none" y1="7" display-index="0" end2="none" y2="-6"/>
+                            <line drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x2="0" antialias="false" x1="0" length1="1.5" length2="1.5" end1="none" y1="-17" display-index="0" end2="none" y2="-9"/>
+                            <terminal y="-17" x="0" display-index="0" orientation="n"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="PowerTransformer3.elmt">
+                    <definition width="70" version="0.80" displayTotal="3" device_type="PowerTransformer" link_type="master" hotspot_y="33" height="70" orientation="dyyy" hotspot_x="32" type="element">
+                        <uuid uuid="{b75e7ea0-e670-482a-b3f1-d4ae3990966e}"/>
+                        <names>
+                            <name lang="en">PowerTransformer3</name>
+                            <name lang="ch">变压器3圈</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="type" show="1">coil</kindInformation>
+                        </kindInformations>
+                        <elementInformations/>
+                        <informations>ezza</informations>
+                        <description>
+                            <circle drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" displayIndex="1" antialias="true" y="-6" diameter="32" x="-26"/>
+                            <circle drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" displayIndex="2" antialias="true" y="-16" diameter="32" x="-6"/>
+                            <circle drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" antialias="true" y="-26" diameter="32" x="-26"/>
+                            <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="-9" rotation="0" text_width="-1" x="30" Halignment="AlignLeft" z="4" uuid="{5c038829-5c49-4a28-a22a-7b3685774297}" Valignment="AlignTop">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <terminal displayIndex="1" y="26" x="-10" orientation="s"/>
+                            <terminal displayIndex="2" y="0" x="26" orientation="n"/>
+                            <terminal y="-26" x="-10" orientation="s"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="Line.elmt">
+                    <definition width="20" version="1.80" displayTotal="1" device_type="Line" link_type="master" hotspot_y="24" height="40" orientation="dyyy" hotspot_x="10" type="element">
+                        <uuid uuid="{2d7148af-ed8f-4261-9075-5b1b747a27ab}"/>
+                        <names>
+                            <name lang="zh-CN">线路</name>
+                            <name lang="en">Line</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="type" show="1">coil</kindInformation>
+                        </kindInformations>
+                        <elementInformations/>
+                        <informations>ezza</informations>
+                        <description>
+                            <dynamic_text frame="false" font="Sans Serif,9,-1,5,50,0,0,0,0,0" text_from="ElementInfo" y="-13" rotation="0" text_width="-1" x="13" Halignment="AlignLeft" z="1" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" Valignment="AlignTop">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <line drawing="pen-style:1;pen-width:3;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(255, 0, 0, 255)" x2="0" antialias="false" x1="0" length1="1.5" length2="1.5" end1="none" y1="-14" end2="none" y2="0"/>
+                            <polygon drawing="pen-style:1;pen-width:1;brush-color:rgba(255, 0, 0, 255);brush-style:0;pen-color:rgba(255, 0, 0, 255)" x2="7" antialias="false" x1="-7" y3="10" x3="0" y1="0" closed="1" y2="0"/>
+                            <terminal y="-14" x="0" orientation="n"/>
+                        </description>
+                    </definition>
+                </element>
+            </category>
+        </category>
+    </collection>
+</project>

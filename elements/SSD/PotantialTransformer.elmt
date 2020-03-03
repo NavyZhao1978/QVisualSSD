@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition width="40" hotspot_y="27" height="50" orientation="dyyy" version="0.80" link_type="slave" device_type="PotantialTransformer" hotspot_x="13" type="element" displayTotal="1">
+    <uuid uuid="{fa935a80-1ca7-4513-ab15-98b2f670746d}"/>
+    <names>        
+        <name lang="zh-CN">电压互感器</name>
+        <name lang="en">PotantialTransformer</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="number" show="1">1</kindInformation>
+        <kindInformation name="type" show="1">simple</kindInformation>
+        <kindInformation name="state" show="1">NO</kindInformation>
+    </kindInformations>
+    <informations>ezza</informations>
+    <description>
+        <circle drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-10" y="-18" antialias="true" diameter="20"/>
+        <circle drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="4" y="-11" antialias="true" diameter="20"/>
+        <circle drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-10" y="-3" antialias="true" diameter="20"/>
+        <line length2="1.5" x1="14" end1="none" y1="-5" y2="-2" end2="none" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" antialias="false" x2="14" length1="1.5"/>
+        <dynamic_text frame="false" x="26" font="Sans Serif,10,-1,5,50,0,0,0,0,0" y="-12" text_width="-1" rotation="0" uuid="{37dff85e-e6aa-493d-84ba-9966559a28b6}" text_from="ElementInfo" z="5" Valignment="AlignTop" Halignment="AlignLeft">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" x1="14" end1="none" y1="-2" y2="0" end2="none" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" antialias="false" x2="12" length1="1.5"/>
+        <line length2="1.5" x1="14" end1="none" y1="-2" y2="0" end2="none" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" antialias="false" x2="16" length1="1.5"/>
+        <line length2="1.5" x1="0" end1="none" y1="-12" y2="-9" end2="none" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" antialias="false" x2="0" length1="1.5"/>
+        <line length2="1.5" x1="0" end1="none" y1="-9" y2="-7" end2="none" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" antialias="false" x2="-2" length1="1.5"/>
+        <line length2="1.5" x1="0" end1="none" y1="-9" y2="-7" end2="none" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" antialias="false" x2="2" length1="1.5"/>
+        <polygon closed="false" x1="0" y1="5" y2="10" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x4="0" antialias="false" x2="-3" y4="5" x3="3" y3="10"/>
+        <terminal x="0" orientation="s" y="-18"/>
+    </description>
+</definition>

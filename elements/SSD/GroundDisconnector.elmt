@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition hotspot_y="26" version="0.80" displayTotal="1" type="element" width="20" height="50" device_type="GroundDisconnector" hotspot_x="8" link_type="slave" orientation="dyyy">
+    <uuid uuid="{7b987f72-e7a1-4b48-84ed-25b1afcb9339}"/>
+    <names>
+        <name lang="zh-CN">接地刀闸</name>
+        <name lang="en">GroundDisconnector</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">simple</kindInformation>
+        <kindInformation name="state" show="1">NO</kindInformation>
+        <kindInformation name="number" show="1">1</kindInformation>
+    </kindInformations>
+    <informations>ezza</informations>
+    <description>
+        <line end1="none" y1="17" antialias="false" x1="-3" length2="1.5" end2="none" y2="17" length1="1.5" x2="3" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <line end1="none" y1="7" antialias="false" x1="0" length2="1.5" end2="none" y2="15" length1="1.5" x2="0" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <line end1="none" y1="19" antialias="false" x1="-2" length2="1.5" end2="none" y2="19" length1="1.5" x2="2" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <line end1="none" y1="15" antialias="false" x1="-4" length2="1.5" end2="none" y2="15" length1="1.5" x2="4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <dynamic_text x="6" frame="false" Halignment="AlignLeft" font="Sans Serif,10,-1,5,50,0,0,0,0,0" rotation="0" text_from="ElementInfo" z="5" y="-10" uuid="{7f959411-ccf6-4eb3-b49e-350cc7a9c45b}" text_width="-1" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line end1="none" y1="-9" antialias="false" x1="-4" length2="1.5" end2="none" y2="-9" length1="1.5" x2="4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <line end1="none" y1="7" antialias="false" x1="0" length2="1.5" end2="none" y2="-6" length1="1.5" x2="-4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <line end1="none" y1="-17" antialias="false" x1="0" length2="1.5" end2="none" y2="-9" length1="1.5" x2="0" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)"/>
+        <terminal x="0" y="-17" orientation="n"/>
+    </description>
+</definition>

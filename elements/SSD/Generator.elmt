@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition hotspot_x="10" height="30" orientation="dyyy" version="0.80" displayTotal="1" hotspot_y="17" link_type="master" width="20" type="element" device_type="Generator">
+    <uuid uuid="{b41b654e-750b-436c-a462-0e88f24d08f8}"/>
+    <names>
+    <name lang="zh-CN">发电机</name>
+        <name lang="en">Generator</name>
+    </names>
+    <kindInformations/>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="0" antialias="true" y="-3" start="180" width="8" angle="180"/>
+        <circle diameter="16" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-8" antialias="false" y="-8"/>
+        <dynamic_text z="2" text_from="ElementInfo" text_width="-1" frame="false" x="10" uuid="{2b120061-3465-4335-b5fa-72f5ffca7fb1}" y="-11" Halignment="AlignLeft" rotation="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <arc height="6" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-8" antialias="true" y="-3" start="359" width="8" angle="180.938"/>
+        <terminal orientation="n" x="0" y="-8"/>
+    </description>
+</definition>

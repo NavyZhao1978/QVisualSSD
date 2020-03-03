@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition hotspot_x="33" height="80" orientation="dyyy" version="0.80" displayTotal="3" hotspot_y="40" link_type="master" width="70" type="element" device_type="PowerTransformer4">
+    <uuid uuid="{5039eab9-5d67-4cc9-9122-e12a7a7ede99}"/>
+    <names>
+    <name lang="zh-CN">四卷变压器</name>
+        <name lang="en">PowerTransformer4</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <circle displayIndex="2" diameter="32" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="0" antialias="true" y="-31"/>
+        <circle displayIndex="1" diameter="32" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-28" antialias="true" y="-6"/>
+        <circle displayIndex="3" diameter="32" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="0" antialias="true" y="-4"/>
+        <circle diameter="32" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" x="-28" antialias="true" y="-31"/>
+        <dynamic_text z="4" text_from="ElementInfo" text_width="-1" frame="false" x="34" uuid="{5c038829-5c49-4a28-a22a-7b3685774297}" y="-12" Halignment="AlignLeft" rotation="0" font="Sans Serif,10,-1,5,50,0,0,0,0,0" Valignment="AlignTop">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <terminal displayIndex="1" orientation="s" x="-12" y="26"/>
+        <terminal displayIndex="3" orientation="n" x="15" y="28"/>
+        <terminal displayIndex="2" orientation="n" x="16" y="-31"/>
+        <terminal orientation="s" x="-12" y="-31"/>
+    </description>
+</definition>

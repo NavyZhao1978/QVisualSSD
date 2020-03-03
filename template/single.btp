@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="1.80">
+    <diagram version="1.80" projectId="1" background="rgba(255, 255, 255, 255)">
+        <elements>
+            <element freezeLabel="false" type="embed://import/SSD/GroundDisconnector.elmt" rotation="270" y2="0" x2="0" x="850" uuid="{63aecd23-23ea-4f8f-9916-ea4138664575}" y="190" scale="1" orientation="3" y1="0" x1="0" prefix="" z="10">
+                <terminals>
+                    <terminal name="_" number="_" nameHidden="0" x="0" y="-17" orientation="0" id="0"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50115</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" rotation="90" Valignment="AlignTop" x="10" uuid="{4ea4d264-4ba9-4f41-bcc0-1d1fb8f31994}" y="30" scale="1" text_from="ElementInfo" text_width="-1">
+                        <text>50115</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" type="embed://import/SSD/Disconnector.elmt" rotation="0" y2="0" x2="0" x="800" uuid="{852b7bed-968c-48b9-8e48-701630340514}" y="270" scale="1" orientation="0" y1="0" x1="0" prefix="" z="10">
+                <terminals>
+                    <terminal name="_" number="_" nameHidden="0" x="0" y="-16" orientation="0" id="1"/>
+                    <terminal name="_" number="_" nameHidden="0" x="0" y="16" orientation="2" id="2"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50112</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" rotation="0" Valignment="AlignTop" x="5" uuid="{363af9e5-3c7d-4bee-8fa3-0311bb72c64d}" y="-10" scale="1" text_from="ElementInfo" text_width="-1">
+                        <text>50112</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" type="embed://import/SSD/GroundDisconnector.elmt" rotation="270" y2="0" x2="0" x="860" uuid="{97f97f6b-48e6-4dda-b68d-febb1ce9dab1}" y="250" scale="1" orientation="3" y1="0" x1="0" prefix="" z="10">
+                <terminals>
+                    <terminal name="_" number="_" nameHidden="0" x="0" y="-17" orientation="0" id="3"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50117</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" rotation="90" Valignment="AlignTop" x="20" uuid="{536a6ab4-a936-43d6-9d5f-b1cfb7c3423c}" y="20" scale="1" text_from="ElementInfo" text_width="-1">
+                        <text>50117</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" type="embed://import/SSD/Disconnector.elmt" rotation="0" y2="0" x2="0" x="800" uuid="{70b02f09-97a8-4c26-97df-ee5b7fa05fe6}" y="160" scale="1" orientation="0" y1="0" x1="0" prefix="" z="10">
+                <terminals>
+                    <terminal name="_" number="_" nameHidden="0" x="0" y="-16" orientation="0" id="4"/>
+                    <terminal name="_" number="_" nameHidden="0" x="0" y="16" orientation="2" id="5"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50111</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" rotation="0" Valignment="AlignTop" x="10" uuid="{8d47dc50-5efc-4389-ab95-4d159ff8cbb8}" y="-10" scale="1" text_from="ElementInfo" text_width="-1">
+                        <text>50111</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" type="embed://import/SSD/GroundDisconnector.elmt" rotation="270" y2="0" x2="0" x="860" uuid="{c91ef7ea-7924-4565-863b-8037da24716e}" y="290" scale="1" orientation="3" y1="0" x1="0" prefix="" z="10">
+                <terminals>
+                    <terminal name="_" number="_" nameHidden="0" x="0" y="-17" orientation="0" id="6"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500</elementInformation>
+                    <elementInformation name="label" show="1">50119</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" rotation="90" Valignment="AlignTop" x="10" uuid="{536a6ab4-a936-43d6-9d5f-b1cfb7c3423c}" y="30" scale="1" text_from="ElementInfo" text_width="-1">
+                        <text>50119</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+            <element freezeLabel="false" type="embed://import/SSD/Breaker.elmt" rotation="0" y2="0" x2="0" x="800" uuid="{f388b7c9-af71-4f96-93d6-cde993c93609}" y="220" scale="1" orientation="0" y1="0" x1="0" prefix="" z="10">
+                <terminals>
+                    <terminal name="_" number="_" nameHidden="0" x="0" y="-14" orientation="0" id="7"/>
+                    <terminal name="_" number="_" nameHidden="0" x="0" y="14" orientation="2" id="8"/>
+                </terminals>
+                <inputs/>
+                <links_uuids>
+                    <link_uuid uuid="{63aecd23-23ea-4f8f-9916-ea4138664575}"/>
+                    <link_uuid uuid="{852b7bed-968c-48b9-8e48-701630340514}"/>
+                    <link_uuid uuid="{97f97f6b-48e6-4dda-b68d-febb1ce9dab1}"/>
+                    <link_uuid uuid="{70b02f09-97a8-4c26-97df-ee5b7fa05fe6}"/>
+                    <link_uuid uuid="{c91ef7ea-7924-4565-863b-8037da24716e}"/>
+                </links_uuids>
+                <elementInformations>
+                    <elementInformation name="voltage" show="1">500kV</elementInformation>
+                    <elementInformation name="label" show="1">5011</elementInformation>
+                </elementInformations>
+                <dynamic_texts>
+                    <dynamic_elmt_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" rotation="0" Valignment="AlignTop" x="-60" uuid="{fca456f3-b3b8-4ab2-a145-a4a6f0065ad4}" y="-20" scale="1" text_from="ElementInfo" text_width="-1">
+                        <text>5011</text>
+                        <info_name>label</info_name>
+                    </dynamic_elmt_text>
+                </dynamic_texts>
+                <texts_groups/>
+            </element>
+        </elements>
+        <conductors>
+            <conductor freezeLabel="false" neutral="false" horizrotatetext="0" onetextperfolio="0" vertirotatetext="270" phase="0" condsize="1" terminal1="0" terminal2="5" x="0" formula="" dash-size="1" color2="#000000" y="0" num="_" displaytext="1" ground="false" numsize="7" tension-protocol="" color="#ff0000" function="" bicolor="false" type="single" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" style="pen-style:1;">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor freezeLabel="false" neutral="false" horizrotatetext="0" onetextperfolio="0" vertirotatetext="270" phase="0" condsize="1" terminal1="3" terminal2="1" x="0" formula="" dash-size="1" color2="#000000" y="0" num="_" displaytext="1" ground="false" numsize="7" tension-protocol="" color="#ff0000" function="" bicolor="false" type="single" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" style="pen-style:1;">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor freezeLabel="false" neutral="false" horizrotatetext="0" onetextperfolio="0" vertirotatetext="270" phase="0" condsize="1" terminal1="7" terminal2="5" x="0" formula="" dash-size="1" color2="#000000" y="0" num="_" displaytext="1" ground="false" numsize="7" tension-protocol="" color="#ff0000" function="" bicolor="false" type="single" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" style="pen-style:1;">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor freezeLabel="false" neutral="false" horizrotatetext="0" onetextperfolio="0" vertirotatetext="270" phase="0" condsize="1" terminal1="6" terminal2="2" x="0" formula="" dash-size="1" color2="#000000" y="0" num="_" displaytext="1" ground="false" numsize="7" tension-protocol="" color="#ff0000" function="" bicolor="false" type="single" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" style="pen-style:1;">
+                <sequentialNumbers/>
+            </conductor>
+            <conductor freezeLabel="false" neutral="false" horizrotatetext="0" onetextperfolio="0" vertirotatetext="270" phase="0" condsize="1" terminal1="1" terminal2="8" x="0" formula="" dash-size="1" color2="#000000" y="0" num="_" displaytext="1" ground="false" numsize="7" tension-protocol="" color="#ff0000" function="" bicolor="false" type="single" horizontal-alignment="AlignBottom" vertical-alignment="AlignRight" style="pen-style:1;">
+                <sequentialNumbers/>
+            </conductor>
+        </conductors>
+    </diagram>
+    <collection>
+        <category name="import">
+            <names>
+                <name lang="de">Importierte elemente</name>
+                <name lang="cs">Zavedené prvky</name>
+                <name lang="pt">elementos importados</name>
+                <name lang="el">Εισηγμένα στοιχεία</name>
+                <name lang="es">Elementos importados</name>
+                <name lang="ca">Elements importats</name>
+                <name lang="sl">Uvoženi elementi</name>
+                <name lang="en">Imported elements</name>
+                <name lang="nl">Elementen geïmporteerd</name>
+                <name lang="tr">İthal öğeler</name>
+                <name lang="hr">Uvezeni elementi</name>
+                <name lang="da">Importerede elementer</name>
+                <name lang="ru">Импортированные элементы</name>
+                <name lang="it">Elementi importati</name>
+                <name lang="ro">Elemente importate</name>
+                <name lang="fr">Éléments importés</name>
+                <name lang="pl">Elementy importowane</name>
+            </names>
+            <category name="SSD">
+                <names>
+                    <name lang="en">SSD</name>
+                    <name lang="ch">变电站</name>
+                </names>
+                <element name="Breaker.elmt">
+                    <definition hotspot_x="10" display_total="4" width="20" device_type="Breaker" type="element" version="0.80" height="50" orientation="dyyy" link_type="master" hotspot_y="23">
+                        <uuid uuid="{2f23e24d-d51c-4880-b18e-a23c312fa223}"/>
+                        <names>
+                            <name lang="ch">断路器</name>
+                            <name lang="en">Breaker</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="type" show="1">coil</kindInformation>
+                        </kindInformations>
+                        <elementInformations/>
+                        <informations>ezza</informations>
+                        <description>
+                            <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" Valignment="AlignTop" rotation="0" x="7" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" y="-11" text_from="ElementInfo" z="1" text_width="-1">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <rect display-index="0" width="12" x="-6" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 255, 0, 255);brush-style:1;pen-color:rgba(0, 0, 0, 255)" height="28" y="-14" rx="0" antialias="false" ry="0"/>
+                            <terminal display-index="0" x="0" y="-14" orientation="n"/>
+                            <terminal display-index="0" x="0" y="14" orientation="s"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="Disconnector.elmt">
+                    <definition hotspot_x="8" display_total="4" width="20" device_type="Disconnector" type="element" version="0.80" height="50" orientation="dyyy" link_type="slave" hotspot_y="23">
+                        <uuid uuid="{e1c1a3ab-d466-457b-8358-881cc9402d66}"/>
+                        <names>
+                            <name lang="ch">隔离刀闸</name>
+                            <name lang="en">Disconnector</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="state" show="1">NO</kindInformation>
+                            <kindInformation name="type" show="1">simple</kindInformation>
+                            <kindInformation name="number" show="1">1</kindInformation>
+                        </kindInformations>
+                        <informations>ezza</informations>
+                        <description>
+                            <line end1="none" display-index="0" length2="1.5" y2="16" x2="0" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="8" x1="0" antialias="false"/>
+                            <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" Valignment="AlignTop" rotation="0" x="5" uuid="{5d4d9d2c-39b6-4688-ad9b-af71e5bc05d5}" y="-10" text_from="ElementInfo" z="2" text_width="-1">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <line end1="none" display-index="0" length2="1.5" y2="-8" x2="4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="-8" x1="-4" antialias="false"/>
+                            <line end1="none" display-index="0" length2="1.5" y2="-5" x2="-4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="8" x1="0" antialias="false"/>
+                            <line end1="none" display-index="0" length2="1.5" y2="-8" x2="0" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="-16" x1="0" antialias="false"/>
+                            <terminal display-index="0" x="0" y="16" orientation="s"/>
+                            <terminal display-index="0" x="0" y="-16" orientation="n"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="GroundDisconnector.elmt">
+                    <definition hotspot_x="8" display_total="4" width="20" device_type="GroundDisconnector" type="element" version="0.80" height="50" orientation="dyyy" link_type="slave" hotspot_y="26">
+                        <uuid uuid="{c343b2ca-5eef-42be-af25-b34b1f7f8224}"/>
+                        <names>
+                            <name lang="ch">接地刀闸</name>
+                            <name lang="en">GroundDisconnector</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="state" show="1">NO</kindInformation>
+                            <kindInformation name="type" show="1">simple</kindInformation>
+                            <kindInformation name="number" show="1">1</kindInformation>
+                        </kindInformations>
+                        <informations>ezza</informations>
+                        <description>
+                            <line end1="none" display-index="0" length2="1.5" y2="17" x2="3" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="17" x1="-3" antialias="false"/>
+                            <line end1="none" display-index="0" length2="1.5" y2="15" x2="0" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="7" x1="0" antialias="false"/>
+                            <line end1="none" display-index="0" length2="1.5" y2="19" x2="2" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="19" x1="-2" antialias="false"/>
+                            <line end1="none" display-index="0" length2="1.5" y2="15" x2="4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="15" x1="-4" antialias="false"/>
+                            <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" Valignment="AlignTop" rotation="0" x="6" uuid="{7f959411-ccf6-4eb3-b49e-350cc7a9c45b}" y="-10" text_from="ElementInfo" z="5" text_width="-1">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <line end1="none" display-index="0" length2="1.5" y2="-9" x2="4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="-9" x1="-4" antialias="false"/>
+                            <line end1="none" display-index="0" length2="1.5" y2="-6" x2="-4" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="7" x1="0" antialias="false"/>
+                            <line end1="none" display-index="0" length2="1.5" y2="-9" x2="0" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" length1="1.5" end2="none" y1="-17" x1="0" antialias="false"/>
+                            <terminal display-index="0" x="0" y="-17" orientation="n"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="PowerTransformer3.elmt">
+                    <definition hotspot_x="32" width="70" device_type="PowerTransformer" type="element" displayTotal="3" version="0.80" height="70" orientation="dyyy" link_type="master" hotspot_y="33">
+                        <uuid uuid="{b75e7ea0-e670-482a-b3f1-d4ae3990966e}"/>
+                        <names>
+                            <name lang="en">PowerTransformer3</name>
+                            <name lang="ch">变压器3圈</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="type" show="1">coil</kindInformation>
+                        </kindInformations>
+                        <elementInformations/>
+                        <informations>ezza</informations>
+                        <description>
+                            <circle diameter="32" x="-26" displayIndex="1" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y="-6" antialias="true"/>
+                            <circle diameter="32" x="-6" displayIndex="2" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y="-16" antialias="true"/>
+                            <circle diameter="32" x="-26" drawing="pen-style:1;pen-width:2;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y="-26" antialias="true"/>
+                            <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" Valignment="AlignTop" rotation="0" x="30" uuid="{5c038829-5c49-4a28-a22a-7b3685774297}" y="-9" text_from="ElementInfo" z="4" text_width="-1">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <terminal x="-10" displayIndex="1" y="26" orientation="s"/>
+                            <terminal x="26" displayIndex="2" y="0" orientation="n"/>
+                            <terminal x="-10" y="-26" orientation="s"/>
+                        </description>
+                    </definition>
+                </element>
+                <element name="Line.elmt">
+                    <definition hotspot_x="10" width="20" device_type="Line" type="element" displayTotal="1" version="1.80" height="40" orientation="dyyy" link_type="master" hotspot_y="24">
+                        <uuid uuid="{2d7148af-ed8f-4261-9075-5b1b747a27ab}"/>
+                        <names>
+                            <name lang="zh-CN">线路</name>
+                            <name lang="en">Line</name>
+                        </names>
+                        <kindInformations>
+                            <kindInformation name="type" show="1">coil</kindInformation>
+                        </kindInformations>
+                        <elementInformations/>
+                        <informations>ezza</informations>
+                        <description>
+                            <dynamic_text font="Sans Serif,9,-1,5,50,0,0,0,0,0" frame="false" Halignment="AlignLeft" Valignment="AlignTop" rotation="0" x="13" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" y="-13" text_from="ElementInfo" z="1" text_width="-1">
+                                <text/>
+                                <info_name>label</info_name>
+                            </dynamic_text>
+                            <line end1="none" length2="1.5" y2="0" x2="0" drawing="pen-style:1;pen-width:3;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(255, 0, 0, 255)" length1="1.5" end2="none" y1="-14" x1="0" antialias="false"/>
+                            <polygon y3="10" x3="0" y2="0" x2="7" closed="1" drawing="pen-style:1;pen-width:1;brush-color:rgba(255, 0, 0, 255);brush-style:0;pen-color:rgba(255, 0, 0, 255)" y1="0" x1="-7" antialias="false"/>
+                            <terminal x="0" y="-14" orientation="n"/>
+                        </description>
+                    </definition>
+                </element>
+            </category>
+        </category>
+    </collection>
+</project>

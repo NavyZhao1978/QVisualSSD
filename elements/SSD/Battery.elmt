@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition orientation="dyyy" device_type="Battery" link_type="master" version="1.80" displayTotal="1" width="20" height="40" hotspot_x="8" hotspot_y="24" type="element">
+    <uuid uuid="{c67eaff8-825a-4198-8a35-92a87de805bb}"/>
+    <names>
+        <name lang="zh-CN">电池</name>
+        <name lang="en">Battery</name>
+    </names>
+    <kindInformations>
+        <kindInformation name="type" show="1">coil</kindInformation>
+    </kindInformations>
+    <elementInformations/>
+    <informations>ezza</informations>
+    <description>
+        <dynamic_text frame="false" font="Sans Serif,10,-1,5,50,0,0,0,0,0" Valignment="AlignTop" x="6" uuid="{52e1adce-e957-4534-be25-8b1053d945c5}" Halignment="AlignLeft" text_from="ElementInfo" rotation="0" text_width="-1" y="-11" z="1">
+            <text></text>
+            <info_name>label</info_name>
+        </dynamic_text>
+        <line length2="1.5" antialias="false" length1="1.5" end1="none" y2="-9" x2="0" end2="none" drawing="pen-style:1;pen-width:3;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(255, 0, 0, 255)" x1="0" y1="-14"/>
+        <rect antialias="false" x="-4" width="8" rx="0" height="18" ry="0" drawing="pen-style:1;pen-width:1;brush-color:rgba(0, 0, 0, 0);brush-style:1;pen-color:rgba(0, 0, 0, 255)" y="-8"/>
+        <terminal orientation="n" x="0" y="-14"/>
+    </description>
+</definition>
